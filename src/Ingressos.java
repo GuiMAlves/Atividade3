@@ -9,7 +9,7 @@ public class Ingressos {
         Scanner scanner;
         Stack pilha = new Stack(); // Classe Pilha
 
-        scanner = new Scanner(new File("C:\\Users\\gui_m\\Downloads\\ExemplosEstruturaDados-main\\ExemplosEstruturaDados-main\\Exemplos_PilhaFila\\src\\br\\com\\pilha\\exemplo\\simples/NomesVip.txt"));
+        scanner = new Scanner(new File("C:\\Users\\gui_m\\IdeaProjects\\Atividade3\\src/NomesVip.txt"));
         while (scanner.hasNextLine()){
             pilha.push(scanner.nextLine());
         }
